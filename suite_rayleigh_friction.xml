@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="rayleigh_friction" version="1.0">
+  <group name="physics">
+    <scheme>rayleigh_friction</scheme>
+    <scheme>rayleigh_friction_update</scheme>
+  </group>
+</suite>
