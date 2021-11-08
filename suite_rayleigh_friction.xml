@@ -3,6 +3,8 @@
 <suite name="rayleigh_friction" version="1.0">
   <group name="physics">
     <scheme>rayleigh_friction</scheme>
-    <scheme>rayleigh_friction_update</scheme>
+    <scheme>apply_tendency_of_x_wind</scheme>
+    <scheme>apply_tendency_of_y_wind</scheme>
+    <scheme>apply_heating_rate</scheme>
   </group>
 </suite>
