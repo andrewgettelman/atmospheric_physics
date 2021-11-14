@@ -116,6 +116,11 @@ subroutine rayleigh_friction_run(ncol, nz, ztodt, u, v, du, dv, s, errmsg, errfl
    errmsg = ''
    errflg = 0
 
+   ! initialize tendencies to zero
+   du(:,:)=0._kind_phys
+   dv(:,:)=0._kind_phys
+   s(:,:) =0._kind_phys
+           
    if (otau0 .eq. 0._kind_phys) return
 
    rztodt = 1._kind_phys/ztodt
